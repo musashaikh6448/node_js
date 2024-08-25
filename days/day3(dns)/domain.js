@@ -38,6 +38,8 @@ let add=(x,y,test)=>{
 // add(10,30,display)
 
 
+
+
 add(20,30,(msg)=>{
     console.log(msg);
     // console.log('morning');

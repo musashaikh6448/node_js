@@ -25,6 +25,7 @@ fs.unlinkSync('test.txt')
 
 
 
+
  fs.writeFile('test.txt','my name is ',(err)=>{
     if (err) {
         console.log(`the file cant create succesful`);
