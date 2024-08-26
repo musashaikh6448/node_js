@@ -6,3 +6,4 @@ const os = require("os");
 
 const total=os.freemem()
  console.log(`${os.freemem/1024/1024/1024}`);
+ 

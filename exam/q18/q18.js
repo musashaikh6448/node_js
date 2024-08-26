@@ -5,7 +5,7 @@ const fs=require('fs')
 // fs.writeFileSync('name.txt','shaikh')
 
 fs.readFile('name.txt','utf8',(err,data)=>{
-    if (data == 'shaikh') {
+    if (data.includes('shaikh') ) {
     console.log(` exist in file `);
     } else {
         console.log('not found');

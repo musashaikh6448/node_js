@@ -7,3 +7,5 @@ const os = require("os");
 
 const total=os.totalmem()
  console.log(`${os.totalmem/1024/1024}`);
+
+ 
