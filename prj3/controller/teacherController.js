@@ -16,3 +16,5 @@ const deleteTeacher = (req, res) => {
 
 
   export{getTeacher,postTeacher,putTeacher,patchTeacher,deleteTeacher}
+
+  
