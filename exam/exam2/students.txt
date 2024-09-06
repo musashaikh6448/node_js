@@ -1,0 +1,25 @@
+musa, azhar, shebaz, azim
+
+
+
+
+
+
+
+1 mkdir = to create folder
+2 npm init -y =
+3 npm i express =
+4 create main file (index,main,app.js)
+5 create instance - const app=express()
+6 port no
+7 code 
+8 app.listner(port no ,()=>{
+   clg(`server started ${port}`)
+})
+9 cmd- 
+**********************************
+m-model
+v-views
+c-controller
+**********************************
+

@@ -19,7 +19,6 @@ console.log(data.toString());  //tostring() will couffer uffer into string
 //to delte file
 fs.unlinkSync('test.txt')
 
-
 /////// async //////
 
 
@@ -58,7 +57,6 @@ fs.unlinkSync('test.txt')
         console.log(`file delete succesful`);
     }
  })
-
 
 
 
