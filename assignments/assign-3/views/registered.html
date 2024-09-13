@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Successful</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f4f8;
+        font-family: "Arial", sans-serif;
+      }
+
+      .container {
+        text-align: center;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 2s ease-in-out;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        color: #28a745;
+        animation: popUp 1s ease-in-out;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin: 15px 0;
+        color: #333;
+        animation: slideIn 1.5s ease-in-out;
+      }
+
+      .checkmark {
+        font-size: 3rem;
+        color: #28a745;
+        margin: 20px 0;
+        animation: bounce 1s ease-in-out infinite alternate;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        animation: buttonSlideIn 2s ease-in-out;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes popUp {
+        from {
+          transform: scale(0.5);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideIn {
+        from {
+          transform: translateY(20px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes bounce {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-10px);
+        }
+      }
+
+      @keyframes buttonSlideIn {
+        from {
+          transform: translateY(40px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="checkmark">✔</div>
+      <h1>Registration Successful!</h1>
+      <p>
+        Thank you for registering. Your information has been submitted
+        successfully.
+      </p>
+    <a href="/tekisky/home"><button>Go to Home</button></a>
+    </div>
+  </body>
+</html>
