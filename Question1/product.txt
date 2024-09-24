@@ -1,0 +1,6 @@
+
+{"productId":1,"name":"SuperWidget","model":"SW2023","company":"WidgetCorp","price":29.99,"tax":2.4,"expiry":"20251231"}
+{"productId":2,"name":"MegaGadget","model":"MG1","company":"GadgetWorks","price":59.99,"tax":4.8,"expiry":"20260615"}
+{"productId":3,"name":"UltraDevice","model":"UDX2","company":"TechNinja","price":99.99,"tax":8,"expiry":"20270120"}
+{"productId":4,"name":"SmartThing","model":"ST500","company":"InnovateInc","price":49.99,"tax":4,"expiry":"20251105"}
+{"productId":5,"name":"QuickTool","model":"QT10","company":"ToolMasters","price":19.99,"tax":1.6,"expiry":"20240830"}
