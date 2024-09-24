@@ -11,3 +11,4 @@ productRoute.get("/getproductDetail/:productId", getProductDetailsController);
 // productRoute.put("/updateProduct", updateProductController);
 
 export default productRoute;
+

@@ -29,3 +29,4 @@ export let getProductDetailsServices = (productId) => {
 //   let data = productModel.updateOne(point);
 //   return data;
 // };
+
