@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Letter Counter</title>
+</head>
+<body>
+  <label for="inputText">Enter text:</label>
+  <input type="text" id="inputText" placeholder="Enter text here">
+  <button onclick="countLetters()">Count Letters</button>
+  <p id="result"></p>
+
+  <!-- <script>
+    function letterCount(text) {
+      let letterCount = 0;
+
+      for (let i = 0; i < text.length; i++) {
+        if (text[i].trim() !== "") {
+          letterCount++;
+        }
+      }
+
+      return letterCount;
+    }
+
+    function countLetters() {
+      const text = document.getElementById("inputText").value;
+      const count = letterCount(text);
+      document.getElementById("result").textContent = "Letter count: " + count;
+    }
+  </script> -->
+  <script>
+    function letterCount(text, letter) {
+  let count = 0;
+
+  for (let i = 0; i < text.length; i++) {
+    if (text[i].toLowerCase() === letter.toLowerCase()) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+// Example usage:
+const text = "This is a sample text with multiple words.";
+const letterToCount = "a";
+const count = letterCount(text, letterToCount);
+console.log(`Count of letter "${letterToCount}": ${count}`);
+  </script>
+</body>
+</html>
