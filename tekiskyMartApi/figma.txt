@@ -1,0 +1,25 @@
+REST API
+
+1. /user/register   (post)
+   firstname, surname, address, mobile, email, password
+   -json
+
+   SUCCESS -
+         message:
+                 user created successfully
+                  status(201)
+
+
+         error:
+               message
+               status(400)
+               
+
+ 2. /user/login   (post)
+     email, password
+     -json
+     {message: success, token}
+
+
+ 3.  /user/profile       (post)   //secure API
+    {email}  token     -----> complete profile data
