@@ -1,4 +1,5 @@
 import userModel from "../model/userModel.js"
+const userModel = require('../model/userModel.js')
 
 
 export let getprofileser=async(email)=>{
@@ -37,4 +38,13 @@ export let registerUserSer=async(user)=>{
         console.log(`error occured while creating user ${error}`);
         return "error"
     }
+}
+
+
+module.exports =
+{
+    getprofileser,
+    getdbpassword,
+    registerUserSer
+
 }

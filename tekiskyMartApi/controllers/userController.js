@@ -1,6 +1,7 @@
 import { hashPassword, comparepass } from "../encryption/encrypt.js";
 import {  registerUserSer,  getdbpassword,  getprofileser,} from "../services/userServices.js";
 import { generateToken, verifyToken } from "../autherization/jwt.js";
+const userDataServiceProvider = require ("../services/userServices.js")
 
 export const getProfile = async (req, res) => {
   let { email } = req.body;
@@ -60,3 +61,26 @@ export let registeruser = async (req, res) => {
     console.log(`error while ${error}`).staut(501);
   }
 };
+
+
+// const addUser = async(req,res)=>{
+//   try {
+//     let data = req.body
+//   let user = await userDataServiceProvider.registerUserSer(data)
+
+//   if(!user){
+//     res.json({message:"User not created"}).status(401)
+//   }
+//   else{
+//     res.json({message:"User created successfully"}).status(201)
+//   }
+//   } catch (error) {
+//     console.log(error)
+    
+//   }
+
+// }
+
+// const getUser = async(req,res)=>{
+
+// }

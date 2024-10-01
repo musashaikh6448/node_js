@@ -7,7 +7,8 @@ let userSchema = new mongoose.Schema({
   mobile: { type: String, trim: true, unique: true, required: true },
   email: { type: String, trim: true, unique: true, required: true },
   password: { type: String, trim: true, required: true },
+  
 });
-let userModel = mongoose.model("user", userSchema);
+let userModel = mongoose.model("user", userSchema,"users");
 
 export default userModel;
